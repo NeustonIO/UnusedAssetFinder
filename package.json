@@ -1,0 +1,12 @@
+{
+  "name": "io.neuston.unusedassetfinder",
+  "displayName": "Unused Asset Finder",
+  "author": "Neuston",
+  "version": "1.0.0",
+  "unity": "2020.3",
+  "description": "Helps you find unused assets and remove them.",
+  "category": "",
+  "dependencies":
+  {
+  }
+}
