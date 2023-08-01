@@ -4,6 +4,8 @@
 
 Unused Asset Finder is a Unity package that helps you figure out which assets are unused and can safely be deleted from the project.
 
+Unused Assets are assets that can't be reach in the asset dependency graph from the scenes in Editor Build Settings or from Resources.
+
 ## Getting started
 
 - Open `Tools > Neuston > Unused Asset Finder`
@@ -11,11 +13,9 @@ Unused Asset Finder is a Unity package that helps you figure out which assets ar
 - See list of unused assets.
 - Delete what you don't need.
 
-## Notes
+## Configuration
 
-Assets in `Resources` folders are considered used and therefore excluded.
-
-Filter out more assets you want to exclude like this: 
+Filter out assets you don't care about like this if you want:
 
 ```c#
 public class UnusedAssetConfiguration : IUnusedAssetConfiguration
